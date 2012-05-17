@@ -18,7 +18,7 @@ document.getElementById('contentDiv').innerHTML(link);
 
 Check out the fiddle for the above example : http://jsfiddle.net/GYCsQ/
 
-*Using it with sequential indexes*
+*Using it with objects*
 
 ```javascript
 var chuck= {
