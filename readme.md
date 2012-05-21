@@ -10,6 +10,20 @@ FormatWith is a simple string formatter for JavaScript that removes the need to 
 
 *Using it with sequential indexes*
 
+Without formatWith:
+
+```javascript
+var cartItemCount = 4;
+var cartItemsText = 'Cart(' + cartItemCount + ')';
+```
+
+Using formatWith:
+
+```javascript
+var cartItemCount = 4;
+var cartItemsText = 'Cart({0})'.formatWith(cartItemCount);
+```
+
 ```javascript
 var linkTemplate = '<a href="{0}" id="{1}">{2}</a>';
 var link = linkTemplate.formatWith('http://github.com', 'linkId', 'GitHub is awesome!');
