@@ -1,10 +1,10 @@
 #What is it#
 
-FormatWith is a simple string formatter for JavaScript that removes the need to ever concatenate string again!
+FormatWith is a simple string formatter for JavaScript that removes the need to ever concatenate strings again!
 
 #How to use it#
 
-1. Download the formatWith.min.js file and add it to your project. You will now a .formatWith() method on all strings.
+1. Download the lib/formatWith.min.js file and add it to your project. You now have a .formatWith() function on all strings!
 
 **Examples**
 
@@ -23,6 +23,7 @@ Using formatWith:
 var cartItemCount = 4;
 var cartItemsText = 'Cart({0})'.formatWith(cartItemCount);
 ```
+--
 
 ```javascript
 var linkTemplate = '<a href="{0}" id="{1}">{2}</a>';
