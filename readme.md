@@ -6,9 +6,9 @@ FormatWith is a simple string formatter for JavaScript that removes the need to 
 
 1. Download the lib/formatWith.min.js file and add it to your project. You now have a .formatWith() function on all strings!
 
-**Examples**
+##Examples##
 
-*Using it with sequential indexes*
+**Using it with sequential indexes**
 
 Without formatWith:
 
@@ -33,7 +33,7 @@ document.getElementById('contentDiv').innerHTML(link);
 
 Check out the fiddle for the above example : http://jsfiddle.net/GYCsQ/
 
-*Using it with objects*
+**Using it with objects**
 
 ```javascript
 var chuck= {
