@@ -7,7 +7,7 @@
         l = arguments.length;
         if ( type === 'object' && l === 1 ) {
             for ( var prop in obj ) {
-                var r = new RegExp( '{' + prop + '}', 'gi' );
+                var r = new RegExp( '{' + prop + '}', 'g' );
                 str = str.replace( r, obj[prop] );
             }
         } else {
