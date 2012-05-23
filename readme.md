@@ -47,3 +47,11 @@ document.getElementById('contentDiv').innerHTML = personTemplate.formatWith(chuc
 ```
 
 Check out the fiddle for the above example : http://jsfiddle.net/DLet7/
+
+##What more?##
+
+Feel free to fork the project and add any functionality you like.
+
+##Want more ... Do less?##
+
+If you want more functionally but don't want to or don't feel you have the ability to extend this project, try one of these: http://garann.github.com/template-chooser/
