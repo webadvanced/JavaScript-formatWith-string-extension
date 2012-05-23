@@ -54,4 +54,4 @@ Feel free to fork the project and add any functionality you like.
 
 ##Want more ... Do less?##
 
-If you want more functionally but don't want to or don't feel you have the ability to extend this project, try one of these: http://garann.github.com/template-chooser/
+If you want more functionally but don't feel up to doing the work yourself? Try one of these: http://garann.github.com/template-chooser/
